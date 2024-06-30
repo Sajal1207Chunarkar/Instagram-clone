@@ -1,0 +1,17 @@
+.leftSidebar>img{
+    width:100px;
+}
+
+.allOptions{
+    
+}
+.oneOption{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.oneOption>h1{
+    font-size:20px;
+    font-weight: 700;
+    font-family:Calibri;
+}

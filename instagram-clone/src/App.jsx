@@ -1,13 +1,19 @@
-import React from 'react'
+import {useEffcet} from 'react'
 import './App.css'
+import HomePage from './Pages/HomePage'
+import Authentication from './Pages/Authentication'
 
 function App() {
- 
+  const user=true
+  
 
   return (
     
       <div>
-        <h1>Instagram clone</h1>
+        {
+          user?<HomePage/>:<Authentication/>
+        }
+        
       </div>
       
     
