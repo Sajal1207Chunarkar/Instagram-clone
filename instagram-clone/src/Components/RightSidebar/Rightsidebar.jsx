@@ -1,8 +1,10 @@
 import React from 'react'
+import styles from '../../styles/RightSidebar.module.css'
 
 function Rightsidebar() {
   return (
-    <div>Rightsidebar</div>
+    <div className={styles.rightSidebar}>
+      Rightsidebar</div>
   )
 }
 
