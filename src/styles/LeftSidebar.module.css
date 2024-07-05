@@ -1,0 +1,39 @@
+.leftSidebarTop > img {
+  width: 100px;
+  margin: 40px 0 30px  20px;
+}
+
+.allOptions {
+  display: flex;
+  flex-direction: column;
+}
+.oneOption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  border-radius: 7px;
+  transition: all 0.2s ease-in-out;
+}
+.leftSidebar {
+  width: 230px;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  border-right: 1px solid lightgray;
+}
+.oneOption>h1{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 12px;
+
+}
+.oneOption:hover{
+    background-color:rgb(233,231,231);
+    cursor: pointer;
+    transform: scale(1,02);
+}

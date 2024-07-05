@@ -1,0 +1,45 @@
+.rightSidebar{
+    width:300px;
+    /* margin-right: 250px; */
+    /* margin-top: px; */
+    padding:10px;
+
+}
+
+.top{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top>img{
+    margin-right: 15px;
+}
+.top>p{
+    margin-left:10px ;
+    font-size: 14px;
+    font-weight: 600;
+    color:rgb(57,188,248);
+    font-family:sans-serif;
+}
+.top>p:hover{
+    cursor: pointer;
+    color:rgb(21,133,177)
+}
+.username>h2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom:5px ;
+}
+.username>p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color:gray;
+}
+.username{
+    width:180px;
+    overflow: hidden;
+    height:36px;
+}
+
