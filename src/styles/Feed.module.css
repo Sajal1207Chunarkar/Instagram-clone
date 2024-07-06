@@ -1,5 +1,7 @@
 .feed{
     width:600px;
+    margin-top:20px ;
+    margin-left: 300px;
     
 }
 
@@ -13,3 +15,10 @@
     margin:0 10px;
     margin-right: 10px;
 }
+
+.feedImg{
+    display:flxe;
+    flex-direction:row ;
+    align-items:center ;
+    
+  }

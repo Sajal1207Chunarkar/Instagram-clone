@@ -24,6 +24,8 @@
   justify-content: space-between;
   margin: 10px;
   border-right: 1px solid lightgray;
+  position:fixed;
+  left:0;
 }
 .oneOption>h1{
     font-size: 16px;
@@ -37,3 +39,10 @@
     cursor: pointer;
     transform: scale(1,02);
 }
+@media screen and(max-width:500px){
+  .leftSidebar{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+

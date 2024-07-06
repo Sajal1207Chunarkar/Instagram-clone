@@ -42,4 +42,9 @@
     overflow: hidden;
     height:36px;
 }
+@media screen and(max-width:500px){
+    .rightSidebar{
+      display:none
+    }
+  }
 
