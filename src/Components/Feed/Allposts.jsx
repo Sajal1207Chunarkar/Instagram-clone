@@ -13,7 +13,7 @@ function Allposts() {
           <OnePost
           key={i}
           postImage={post.postImage}
-          userHandleId={post.userHandleId}
+          userhandleid={post.userhandleid}
           postTimestamp={post.postTimestamp}
           postLocation={post.postLocation}
           userAvatar={post.userAvatar}

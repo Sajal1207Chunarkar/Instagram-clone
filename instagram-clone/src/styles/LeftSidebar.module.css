@@ -14,9 +14,6 @@
   padding: 15px;
   border-radius: 7px;
   transition: all 0.2s ease-in-out;
-
-  color:black;
-  text-decoration: 0px solid white underline;
 }
 .leftSidebar {
   width: 230px;
@@ -27,8 +24,6 @@
   justify-content: space-between;
   margin: 10px;
   border-right: 1px solid lightgray;
-  position:fixed;
-  left:0;
 }
 .oneOption>h1{
     font-size: 16px;
@@ -36,19 +31,9 @@
     font-family: sans-serif;
     margin-left: 12px;
 
-    /* color:black;
-    text-decoration: 0px solid white underline; */
-
 }
 .oneOption:hover{
     background-color:rgb(233,231,231);
     cursor: pointer;
     transform: scale(1,02);
 }
-@media screen and(max-width:500px){
-  .leftSidebar{
-    display:grid;
-    grid-template-columns: auto auto auto auto;
-  }
-}
-

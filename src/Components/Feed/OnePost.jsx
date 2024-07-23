@@ -5,6 +5,7 @@ import { BsThreeDots } from "react-icons/bs";
 import { FaRegBookmark, FaRegHeart } from "react-icons/fa";
 import { FiMessageCircle } from "react-icons/fi";
 import { TbSend } from "react-icons/tb";
+import { Link } from "react-router-dom";
 // import { MdVerified } from "react-icons/md";
 
 function OnePost(props) {
@@ -14,14 +15,18 @@ function OnePost(props) {
             {/* top */}
             <div className={styles.top}>
                 {/* Avatar */}
+                <Link to={`/friend ${userhandleid}`}target='_blank'>
                 <img
                     src={userAvatar}
                     alt={userAvatar}
                 />
+                </Link>
                 <div className={styles.info}>
                     {/* userhandleid && verified icon && time*/}
                     <h3>
+                        <Link to={`/friend/${userhandleid}`}target='_blank'>
                         {userhandleid}
+                        </Link>
                         <MdVerified
                             style={{
                                 marginLeft: "5px",
@@ -68,9 +73,11 @@ function OnePost(props) {
                 {
                     postCaption && (
 
-
-
-                        <h3><span style={{ fontWeight: 'bold', marginRight: '5px' }}>{userhandleid}</span><span>{postCaption}
+                        <h3>
+                            <Link to={'/friend'}>
+                            <span style={{ fontWeight: 'bold', marginRight: '5px' }}>{userhandleid}</span>
+                            </Link>
+                        <span>{postCaption}
                         </span></h3>)}
                 {
                     commentCount > 0 ? (

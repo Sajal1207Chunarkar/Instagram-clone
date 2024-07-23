@@ -1,0 +1,15 @@
+.feed{
+    width:600px;
+    
+}
+
+.feedImg>img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+
+    border:2px solid transparent;
+    outline:2px solid red;
+    margin:0 10px;
+    margin-right: 10px;
+}
